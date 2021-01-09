@@ -108,23 +108,69 @@ const chat = {
         text: 'Bonne visite du site !'
     },
     7: {
-        text: 'test ali'
+        text: 'Voici quelques aides pour subvenir à vos besoins en alimentation',
+        options: [
+            {
+                text: "Les AGORAé",
+                url: "https://www.fage.org/innovation-sociale/solidarite-etudiante/agorae-fage/"
+            },
+            {
+                text: "Restos du coeur",
+                url: "https://www.restosducoeur.org/associations-departementales/"
+            }
+        ]
         
     },
     8: {
-        text: 'logment'
-        
+        text: 'Voici quelques aides pour se loger',
+        options: [
+            {
+                text: "logement1",
+                url: "https://www.fage.org/innovation-sociale/solidarite-etudiante/agorae-fage/"
+            },
+            {
+                text: "logement2",
+                url: "https://www.fage.org/innovation-sociale/solidarite-etudiante/agorae-fage/"
+            }
+        ]
     },
     9: {
-        text: 'argent'
-        
+        text: 'Voici quelques aides pour subvenir à vos besoins financiers',
+        options: [
+            {
+                text: "argent1",
+                url: "https://www.fage.org/innovation-sociale/solidarite-etudiante/agorae-fage/"
+            },
+            {
+                text: "argent2",
+                url: "https://www.fage.org/innovation-sociale/solidarite-etudiante/agorae-fage/"
+            }
+        ]
     },
     10: {
-        text: 'health'
-        
+        text: 'Voici quelques aides pour rester en bonne santé',
+        options: [
+            {
+                text: "health1",
+                url: "https://www.fage.org/innovation-sociale/solidarite-etudiante/agorae-fage/"
+            },
+            {
+                text: "health2",
+                url: "https://www.fage.org/innovation-sociale/solidarite-etudiante/agorae-fage/"
+            }
+        ]
     },
     11: {
-        text: 'sociaaaaaal'
-        
+        text: 'Voici quelques aides pour le social',
+        options: [
+            {
+                text: "social1",
+                url: "https://www.fage.org/innovation-sociale/solidarite-etudiante/agorae-fage/"
+            },
+            {
+                text: "social2",
+                url: "https://www.fage.org/innovation-sociale/solidarite-etudiante/agorae-fage/"
+            }
+        ]
     }
 };

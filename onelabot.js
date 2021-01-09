@@ -47,6 +47,7 @@ const bot = function () {
                 button.innerHTML = option.text;
                 if (option.url) {
                     button.href = option.url;
+                    //button.target = '_blank';
                 } else {
                     button.dataset.next = option.next;
                 }
@@ -94,7 +95,7 @@ const bot = function () {
         printChoice(choice);
         scrollContainer();
 
-        await sleep(1500);
+        await sleep(1000);
 
         if (choice.dataset.next) {
             printResponse(chat[choice.dataset.next]);
