@@ -63,7 +63,7 @@ const chat = {
         next: 3
     },
     3: {
-        text: 'Enfin bref, as-tu besoin d\'aide ?',
+        text: 'Tu as besoin d\'aide ?',
         options: [
             {
                 text: "<strong>Oui</strong>, j\'ai besoin d' aide !",

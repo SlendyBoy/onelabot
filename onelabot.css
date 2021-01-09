@@ -94,10 +94,10 @@
   opacity: 1;
   transform: translateY(0);
 }
-.restart {
+.restart, .aide {
   position: absolute;
   bottom: 0.5rem;
-  right: 0.5rem;
+  
   outline: none;
   font-size: 12px;
   color: hsl(0, 0%, 50%);
@@ -107,4 +107,10 @@
   background: hsl(0, 0%, 100%);
   padding: 0.2rem 0.5rem;
   cursor: pointer;
+}
+.restart{
+  right: 0.5rem;
+}
+.aide{
+  right: 4.5rem;
 }

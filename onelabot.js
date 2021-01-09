@@ -107,6 +107,10 @@ const bot = function () {
         startConversation();
     }
 
+    const handleHelp = function () {
+        printResponse(chat[3]);
+    }
+
     const startConversation = function () {
         printResponse(chat[1]);
     }
@@ -119,8 +123,14 @@ const bot = function () {
         restartButton.classList.add('restart');
         restartButton.addEventListener('click', handleRestart);
 
-        container.appendChild(restartButton);
+        helpButton = document.createElement('button');
+        helpButton.innerText = "Aide";
+        helpButton.classList.add('aide');
+        helpButton.addEventListener('click', handleHelp);
 
+        container.appendChild(restartButton);
+        container.appendChild(helpButton);
+        
         startConversation();
     };
 
