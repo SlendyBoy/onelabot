@@ -36,7 +36,7 @@ const bot = function () {
         response.innerHTML = step.text;
         insertNewChatItem(response);
 
-        await sleep(1500);
+        await sleep(1000);
 
         if (step.options) {
             const choices = document.createElement('div');
@@ -108,6 +108,7 @@ const bot = function () {
     }
 
     const handleHelp = function () {
+        disableAllChoices();
         printResponse(chat[3]);
     }
 
