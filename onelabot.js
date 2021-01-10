@@ -47,7 +47,7 @@ const bot = function () {
                 button.innerHTML = option.text;
                 if (option.url) {
                     button.href = option.url;
-                    //button.target = '_blank';
+                    button.target = '_blank';
                 } else {
                     button.dataset.next = option.next;
                 }
