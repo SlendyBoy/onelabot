@@ -50,7 +50,7 @@
  */
 const chat = {
     1: {
-        text: 'Salut je suis le bot d\'Onela !',
+        text: 'Salut je suis OnelaBot !',
         options: [
             {
                 text: 'Salut ! 👋',
@@ -66,7 +66,7 @@ const chat = {
         text: 'Tu as besoin d\'aide ?',
         options: [
             {
-                text: "<strong>Oui</strong>, j\'ai besoin d' aide !",
+                text: "<strong>Oui</strong>, j\'ai besoin d\'aide !",
                 next: 4
             },
             {

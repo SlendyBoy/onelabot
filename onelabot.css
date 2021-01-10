@@ -36,12 +36,14 @@
     padding: 0.5rem 0.7rem;
     line-height: 1.4;
     color: black;
-    width: 80%;
     margin-bottom: 0.5rem;
 }
+
 .chat-response {
     margin-left: 26px;
     position: relative;
+    width: max-content;
+    max-width: 90%;
 }
 .chat-response:before {
     display: block;
@@ -57,12 +59,16 @@
     background-size: 100%;
     border-radius: 100%;
 }
+
 .chat-ask {
   background-color: hsl(207, 96%, 55%);
   margin-right: 0;
   margin-left: auto;
   color: hsl(0, 0%, 100%);
+  width: max-content;
 }
+
+/* Group of choices */
 .choices {
   opacity: 0; /* Set to active to show */
   transform: translateY(-50%); /* Set to activated to move down */
@@ -94,10 +100,10 @@
   opacity: 1;
   transform: translateY(0);
 }
+
 .restart, .aide {
   position: absolute;
   bottom: 0.5rem;
-  
   outline: none;
   font-size: 12px;
   color: hsl(0, 0%, 50%);
